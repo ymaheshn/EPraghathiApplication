@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EPraghathiRoomDBApplication</string>
+    <string name="employee_details">Employee Details</string>
+    <string name="employee_id">Employee Id</string>
+    <string name="name">Name</string>
+    <string name="designation">Designation</string>
+    <string name="location">Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="projects_status">Projects Status</string>
+    <string name="assigned">Assigned</string>
+    <string name="completed">Completed</string>
+    <string name="toolbarName">E--Praghathi Employees</string>
+    <string name="submit">Submit</string>
+</resources>
