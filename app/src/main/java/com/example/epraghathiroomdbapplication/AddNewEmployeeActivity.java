@@ -78,7 +78,7 @@ public class AddNewEmployeeActivity extends AppCompatActivity implements View.On
             builderSaved.setMessage("Details Successfully Saved");
             builderSaved.setPositiveButton("OK", (dialogInterface, i) -> {
           //      Objects.requireNonNull(getApplicationContext()).onActivityResult(getTargetRequestCode(), RESULT_OK, intent);
-                setResult(-1, intent);
+                setResult(1, intent);
                 finish();
                 getFragmentManager().popBackStack();
 

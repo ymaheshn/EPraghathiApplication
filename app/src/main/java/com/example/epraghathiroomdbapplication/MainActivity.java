@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == REQUEST_CODE && resultCode == Activity.RESULT_OK) {
+        if (requestCode == REQUEST_CODE) {
             if (data.hasExtra(INTENT_TASK)) {
                 if (data.hasExtra(INTENT_DELETE)) {
                     employeeRepository.deleteTask((EmployeeDataDTO) data.getSerializableExtra(INTENT_TASK));
