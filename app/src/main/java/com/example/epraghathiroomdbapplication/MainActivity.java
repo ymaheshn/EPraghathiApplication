@@ -69,9 +69,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.fab) {
+        switch (view.getId()){
+            case R.id.fab:
             Intent intent = new Intent(MainActivity.this, AddNewEmployeeActivity.class);
             startActivityForResult(intent, REQUEST_CODE);
+            break;
         }
     }
 
